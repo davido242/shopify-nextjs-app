@@ -2,15 +2,16 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 
 export default function Navigation() {
     return(
         <AppBar position="static">
             <Toolbar>
-                <Typography mr={2}>All Products</Typography>
-                <Typography mr={2}>Women</Typography>
-                <Typography mr={2}>Men</Typography>
+                <Link href="/" underline="none" color="inherit"><Typography mr={2}>All Products</Typography></Link>
+                <Link href="/collections/women" underline="none" color="inherit"><Typography mr={2}>Women</Typography></Link>
+                <Link href="/collections/men" underline="none" color="inherit"><Typography mr={2}>Men</Typography></Link>
 
             </Toolbar>
         </AppBar>
