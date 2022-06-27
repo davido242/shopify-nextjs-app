@@ -20,8 +20,8 @@ export default function ProductList({ products }) {
                                     loading="lazy"
                                 />
                                 <ImageListItemBar
-                                    title={product.name}
-                                    subtitle={<span>Price: {product.price}</span>}
+                                    title={products.name}
+                                    subtitle={<span>Price: {products.price}</span>}
                                     position="below"
                                 />
                             </ImageListItem>

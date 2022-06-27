@@ -12,7 +12,6 @@ export default function Navigation() {
                 <Link href="/" underline="none" color="inherit"><Typography mr={2}>All Products</Typography></Link>
                 <Link href="/collections/women" underline="none" color="inherit"><Typography mr={2}>Women</Typography></Link>
                 <Link href="/collections/men" underline="none" color="inherit"><Typography mr={2}>Men</Typography></Link>
-
             </Toolbar>
         </AppBar>
     )

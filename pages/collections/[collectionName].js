@@ -21,7 +21,6 @@ export default function CollectionPage() {
             <Container maxWidth="lg">
                 <BreadcrumbsNavigation collection={CollectionName} />
                     <ProductList products={products} />
-
             </Container>
         </Box>
     );
